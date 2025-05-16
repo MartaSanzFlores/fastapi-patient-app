@@ -1,5 +1,5 @@
 from sqlmodel import Session, select
-from .models import Patient, PatientUpdate
+from app.models.Patient import Patient, PatientUpdate
 
 from fastapi import HTTPException
 from sqlalchemy.exc import IntegrityError

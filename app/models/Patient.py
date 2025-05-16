@@ -27,3 +27,4 @@ class PatientUpdate(BaseModel):
     age: Annotated[Optional[int], conint(ge=0)] = None
     email: Optional[EmailStr] = None
     phone: Annotated[Optional[str], constr(min_length=7)] = None
+    
