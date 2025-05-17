@@ -7,29 +7,27 @@
   font-weight: normal;
 }
 
-a,
-.green {
+button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+button:hover {
+  cursor: pointer;
+  background-color: rgba(179, 223, 201, 0.582);
+  color: black;
 }
 
 @media (min-width: 1024px) {
   body {
     display: flex;
     place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
   }
 }
